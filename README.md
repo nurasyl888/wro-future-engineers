@@ -38,6 +38,31 @@ We believe that strong engineering is based not only on speed, but on **consiste
 
 ---
 
+## Project Goal
+The main goal of Team NEXUS is to develop a **stable and reliable autonomous robot** for the WRO Future Engineers challenge.
+
+Our engineering priorities are:
+- reliable mechanical construction
+- stable camera-based perception
+- robust autonomous decision making
+- practical and easy-to-improve system architecture
+- strong integration between hardware and software
+
+---
+
+## Our Robot
+
+<p align="center">
+  <img src="images/materials/full%20robot%20image1.jpeg" width="420">
+  <img src="images/materials/full%20robot%20image%202.jpeg" width="420">
+</p>
+
+<p align="center">
+  <b>Current robot photos / final assembled robot</b>
+</p>
+
+---
+
 ## Project Overview
 This repository contains the documentation and source code for our WRO Future Engineers robot.
 
@@ -96,52 +121,52 @@ Our robot is being developed to support the following functions:
     <th>Function in the Robot</th>
   </tr>
   <tr>
-    <td><img src="images/materials/raspberry-4-modele-b-4go.jpg" width="140"></td>
+    <td><img src="images/materials/raspberry-4-modele-b-4go.jpg" width="220"></td>
     <td><b>Raspberry Pi 4</b></td>
     <td>Main onboard computer responsible for computer vision, image processing, and high-level decision making.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/OIP.webp" width="220"></td>
     <td><b>Raspberry Pi Camera</b></td>
     <td>Captures the field view and provides image data for detecting colored blocks, lines, and walls.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/arduino-uno-r3-1-1.jpg" width="220"></td>
     <td><b>Arduino Uno</b></td>
     <td>Handles low-level control tasks and executes movement-related commands.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/REPLACE_WITH_EXACT_MOTOR_FILENAME" width="220"></td>
     <td><b>DC Motor with Encoder</b></td>
     <td>Drives the robot forward and provides motion feedback for more accurate control.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/mg996r-metal-gear-torque-digital-servo.jpg" width="220"></td>
     <td><b>Servo Motor</b></td>
     <td>Controls the steering angle of the robot.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/bts7960-motor-driver-module.png" width="220"></td>
     <td><b>Motor Driver</b></td>
     <td>Supplies and regulates power for the drive motor according to control commands.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/mpu6050-6-axis-gyroscope-accelerometer-sensor.jpg" width="220"></td>
     <td><b>Gyroscope</b></td>
     <td>Provides orientation-related data to improve turning consistency and heading stability.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/R.png" width="220"></td>
     <td><b>Power Converter / Voltage Regulator</b></td>
     <td>Ensures stable voltage delivery to different electronic subsystems.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/bateria-lipo-74v2s35c-1550mah.jpg" width="220"></td>
     <td><b>Battery / Power Source</b></td>
     <td>Supplies electrical power to the robot during operation.</td>
   </tr>
   <tr>
-    <td>[Add photo here]</td>
+    <td><img src="images/materials/image.png" width="220"></td>
     <td><b>Wooden Chassis</b></td>
     <td>Serves as the main structural frame of the robot and supports all mounted components.</td>
   </tr>
