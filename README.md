@@ -26,6 +26,17 @@ _Last updated: [DATE]_
 
 ---
 
+## Team Roles
+
+| Team Member | Main Responsibilities |
+|---|---|
+| **Sadykbek Nurassyl** | Responsible for **documentation**, **GitHub organization**, and support in the overall robot development process. His work includes maintaining the technical structure of the project, organizing development materials, and supporting the team in presenting and documenting the engineering progress clearly and professionally. |
+| **Yeshankul Zhansultan** | Responsible for **building the robot** and **coding**. His work focuses on the practical construction of the robot, integration of components, and development of the software needed for autonomous operation and control. |
+
+These roles help our team maintain a balanced workflow between **engineering development**, **technical implementation**, and **project documentation**, allowing us to improve the robot in a more organized and effective way.
+
+---
+
 ## Team Vision
 Our main engineering objective is to build a robot that is:
 
@@ -112,6 +123,18 @@ Our robot is being developed to support the following functions:
 
 ---
 
+## Robot Dimensions
+
+| Parameter | Value |
+|---|---|
+| **Length** | 22 cm |
+| **Width** | 12 cm |
+| **Weight** | 1.3 kg |
+
+The size of the robot plays an important role in its mechanical stability, turning behavior, component placement, and overall field performance. Our current design is based on a practical balance between structural strength, reliability, and effective integration of the main subsystems.
+
+---
+
 ## Materials and Components
 
 <table>
@@ -136,7 +159,7 @@ Our robot is being developed to support the following functions:
     <td>Handles low-level control tasks and executes movement-related commands.</td>
   </tr>
   <tr>
-    <td><img src="images/materials/REPLACE_WITH_EXACT_MOTOR_FILENAME" width="220"></td>
+    <td><img src="images/materials/25GA-370-12V-DC-Gear-Motor-With-Encoder-Speed-Measuring-Code-Disc-Strong-...." width="220"></td>
     <td><b>DC Motor with Encoder</b></td>
     <td>Drives the robot forward and provides motion feedback for more accurate control.</td>
   </tr>
@@ -182,9 +205,82 @@ Our robot is being developed to support the following functions:
 | **Design Goal** | Strong, stable, and reliable construction |
 | **Main Priority** | Mechanical stability and reliability |
 | **Structure Type** | Simple and practical layout for easier maintenance and upgrades |
-| **Development Focus** | Stable component mounting, balanced structure, and reliable steering mechanics |
+| **Development Focus** | Stable component mounting, balanced structure, reliable steering mechanics, and smooth power transmission |
 
 Our robot uses a **wooden chassis** because it allows practical construction, fast modification, and stable mounting of major subsystems. The design is focused on reliability and straightforward engineering rather than unnecessary complexity.
+
+The mechanical layout also includes a **steering mechanism** and a **differential mechanism**, which are important parts of the overall drive system. These mechanisms help the robot maintain controlled motion, directional accuracy, and more stable behavior on the field.
+
+---
+
+## Drive and Steering Mechanism
+
+<table>
+  <tr>
+    <th>Photo</th>
+    <th>Mechanism</th>
+    <th>Function</th>
+  </tr>
+  <tr>
+    <td><img src="images/materials/control%202.jpeg" width="260"></td>
+    <td><b>Steering Mechanism</b></td>
+    <td>This mechanism is responsible for directional control. It connects the servo motor to the steering system and changes the angle of the front wheels, allowing the robot to change direction accurately during navigation and obstacle avoidance.</td>
+  </tr>
+  <tr>
+    <td><img src="images/materials/control%203.jpeg" width="260"></td>
+    <td><b>Differential Mechanism</b></td>
+    <td>This mechanism is part of the drive transmission system. It helps transfer motion within the drivetrain and supports smoother wheel movement, improving stability and overall mechanical performance.</td>
+  </tr>
+</table>
+
+### Drive System
+The main propulsion is provided by a **DC motor with encoder**. The motor is connected to the drive system and transfers rotational motion to the wheels, allowing the robot to move forward on the field. The encoder provides motion feedback that can support more consistent movement and improve control accuracy.
+
+### Steering System
+The robot uses a **servo-based steering system**. The servo motor controls the steering mechanism, which turns the front wheels according to the decisions made by the vision and control logic.
+
+### Mechanical Design Priorities
+The drive and steering systems were developed with a focus on:
+- stability
+- reliability
+- practical construction
+- easy maintenance
+- compatibility with the wooden chassis
+
+---
+
+## Potential Improvements and Future Development
+
+As our project continues to evolve, we see several important areas for future improvement in both the mechanical and software parts of the robot.
+
+### Mechanical Improvements
+- reducing overall robot weight
+- improving compactness of the chassis
+- optimizing component placement for better balance
+- improving structural efficiency while keeping mechanical reliability
+
+One of the practical future improvements is the **reduction of weight and overall size by replacing the current larger power bank with a smaller and more compact power solution**. This could help decrease total mass, free up internal space, and improve the overall proportions of the robot.
+
+### Design and CAD Development
+We are also interested in improving our engineering workflow through **3D CAD design**. Since we are still learning this area, future work may include:
+- creating more accurate 3D models of the robot
+- designing components and mounts digitally before building them
+- improving precision in mechanical planning
+- using CAD as a tool for better structural optimization
+
+This is an important direction for our team because learning CAD will help us better understand engineering design and improve future versions of the robot.
+
+### Software and Control Improvements
+Future software improvements may include:
+- more stable camera calibration
+- better wall detection
+- improved line counting logic
+- better turning precision
+- stronger integration between Raspberry Pi and Arduino
+- more reliable behavior under different lighting conditions
+
+### Additional Improvement Direction
+Another valuable improvement would be the development of a more systematic **testing and calibration process**, including repeated mechanical checks, sensor validation, and structured tuning of vision parameters. This would help the robot become more predictable and reliable in real competition conditions.
 
 ---
 
@@ -195,7 +291,7 @@ Our robot uses a **wooden chassis** because it allows practical construction, fa
 | **Vision System** | Raspberry Pi 4 + Raspberry Pi Camera |
 | **Control System** | Arduino Uno |
 | **Drive System** | DC motor with encoder + motor driver |
-| **Steering System** | Servo motor |
+| **Steering System** | Servo motor + steering mechanism |
 | **Orientation Support** | Gyroscope |
 | **Power Distribution** | Battery and voltage converters |
 
