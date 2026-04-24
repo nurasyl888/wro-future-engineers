@@ -89,18 +89,63 @@ Our robot is being developed to support the following functions:
 
 ## Materials and Components
 
-| Component | Function in the Robot |
-|---|---|
-| **Raspberry Pi 4** | Main onboard computer responsible for computer vision, image processing, and high-level decision making |
-| **Raspberry Pi Camera** | Captures the field view and provides image data for detecting colored blocks, lines, and walls |
-| **Arduino Uno** | Handles low-level control tasks and executes movement-related commands |
-| **DC Motor with Encoder** | Drives the robot forward and provides motion feedback for more accurate control |
-| **Servo Motor** | Controls the steering angle of the robot |
-| **Motor Driver** | Supplies and regulates power for the drive motor according to control commands |
-| **Gyroscope** | Provides orientation-related data to improve turning consistency and heading stability |
-| **Power Converter / Voltage Regulator** | Ensures stable voltage delivery to different electronic subsystems |
-| **Battery / Power Source** | Supplies electrical power to the robot during operation |
-| **Wooden Chassis** | Serves as the main structural frame of the robot and supports all mounted components |
+<table>
+  <tr>
+    <th>Photo</th>
+    <th>Component</th>
+    <th>Function in the Robot</th>
+  </tr>
+  <tr>
+    <td><img src="images/materials/raspberry-4-modele-b-4go.jpg" width="140"></td>
+    <td><b>Raspberry Pi 4</b></td>
+    <td>Main onboard computer responsible for computer vision, image processing, and high-level decision making.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>Raspberry Pi Camera</b></td>
+    <td>Captures the field view and provides image data for detecting colored blocks, lines, and walls.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>Arduino Uno</b></td>
+    <td>Handles low-level control tasks and executes movement-related commands.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>DC Motor with Encoder</b></td>
+    <td>Drives the robot forward and provides motion feedback for more accurate control.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>Servo Motor</b></td>
+    <td>Controls the steering angle of the robot.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>Motor Driver</b></td>
+    <td>Supplies and regulates power for the drive motor according to control commands.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>Gyroscope</b></td>
+    <td>Provides orientation-related data to improve turning consistency and heading stability.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>Power Converter / Voltage Regulator</b></td>
+    <td>Ensures stable voltage delivery to different electronic subsystems.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>Battery / Power Source</b></td>
+    <td>Supplies electrical power to the robot during operation.</td>
+  </tr>
+  <tr>
+    <td>[Add photo here]</td>
+    <td><b>Wooden Chassis</b></td>
+    <td>Serves as the main structural frame of the robot and supports all mounted components.</td>
+  </tr>
+</table>
 
 ---
 
